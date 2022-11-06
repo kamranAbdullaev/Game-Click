@@ -113,7 +113,7 @@ function createRandomCircle() { // Созадние кругов
 
 
 function getRandomColor() {
-  const index = Math.floor(Math.random() * colors.length + getRandomNumber(0,5) + 0.5);
+  const index = Math.floor(Math.random() * colors.length + getRandomNumber(0,5) + 0.5)
   return colors[index];
 }
 
