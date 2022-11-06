@@ -5,9 +5,9 @@ const startBtn = document.querySelector('#start'),
       board = document.querySelector("#board");
 let time = 0,
     score = 0;
-const circle = document.createElement('div');
+const circle = document.createElement('div'),
       circle.classList.add('circle');
-let musicStart = document.createElement('div');
+let musicStart = document.createElement('div'),
       musicStart.classList.add('music');
 
   startBtn.addEventListener('click', (event) => {
