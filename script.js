@@ -4,7 +4,7 @@ const startBtn = document.querySelector('#start'),
       timeEl = document.querySelector('#time'),
       board = document.querySelector("#board");
 let time = 0,
-    score = 0
+    score = 0;
 const circle = document.createElement('div'),
       circle.classList.add('circle');
 let musicStart = document.createElement('div'),
